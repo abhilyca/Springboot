@@ -9,11 +9,10 @@ import java.util.List;
 
 @Service
 public class MyServiceImpl implements MyService {
-
     @Override
     public List<MyModel> getMyList() {
         return List.of(
-                new MyModel(1,"Abhi")
+                new MyModel(1, "Abhi", "abhi@example.com")
         );
     }
 }
